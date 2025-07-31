@@ -11,7 +11,6 @@
   justify-content: center;
   align-items: center;
   margin-top: 25px;
-  /* border: 1px solid white; */
 }
 
 .game-name {
@@ -24,7 +23,8 @@
 }
 
 .Status {
-  width: 450px;
+  width: 400px;
+  height: 50px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -34,7 +34,6 @@
   color: white;
   border-radius: 10px;
   background-color: #0fb04d;
-  /* border: 1px solid white; */
 }
 
 .Status span {
@@ -49,21 +48,78 @@
   font-size: large;
 }
 
+.Languages {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+}
+
 .languages {
   height: 40px;
-  margin: 5px;
   display: flex;
+  margin-inline: 7px;
   justify-content: center;
   align-items: center;
   padding-inline: 15px;
   border-radius: 10px;
 }
 
-.Languages {
+.Word {
+  margin: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 25px;
-  /* width: 350px; */
-  /* border: 1px solid white; */
+}
+
+.letter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  margin-inline: 7px;
+  border-bottom: 2px solid grey;
+  background-color: rgb(39, 39, 39);
+  color: white;
+  font-size: large;
+}
+
+.Keyboard {
+  margin: 30px;
+  display: grid;
+  grid-template-columns: repeat(10, auto);
+  gap: 13px;
+}
+
+.buttons {
+  height: 70px;
+  width: 70px;
+  color: black;
+  background-color: orange;
+  font-size: larger;
+  font-weight: bolder;
+  border-radius: 10px;
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+.buttons:nth-child(21) {
+  grid-column-start: 3;
+}
+
+.NewGame {
+  margin: 30px;
+}
+
+.new-game-button {
+  width: 300px;
+  height: 50px;
+  border-radius: 10px;
+  border: 1px solid white;
+  cursor: pointer;
+  font-size:medium;
+  font-weight: bolder;
+  color: black;
+  background-color: rgb(32, 158, 208);
 }
