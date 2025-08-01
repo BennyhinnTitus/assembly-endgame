@@ -53,12 +53,14 @@
   justify-content: center;
   align-items: center;
   margin: 30px;
+  max-width: 500px;
+  flex-wrap: wrap;
 }
 
 .languages {
   height: 40px;
   display: flex;
-  margin-inline: 7px;
+  margin: 7px;
   justify-content: center;
   align-items: center;
   padding-inline: 15px;
@@ -110,6 +112,7 @@
 
 .NewGame {
   margin: 30px;
+  padding-bottom: 20px;
 }
 
 .new-game-button {
@@ -123,3 +126,4 @@
   color: black;
   background-color: rgb(32, 158, 208);
 }
+
