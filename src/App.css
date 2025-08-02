@@ -94,7 +94,7 @@
   gap: 13px;
 }
 
-.buttons {
+.Keyboard > button {
   height: 70px;
   width: 70px;
   color: black;
@@ -106,8 +106,16 @@
   cursor: pointer;
 }
 
-.buttons:nth-child(21) {
+.Keyboard > button:nth-child(21) {
   grid-column-start: 3;
+}
+
+.Keyboard > button.correct {
+  background-color: #0fb04d;
+}
+
+.Keyboard > button.wrong {
+  background-color: rgb(193, 21, 21);
 }
 
 .NewGame {
