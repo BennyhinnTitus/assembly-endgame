@@ -1,7 +1,7 @@
-const NewGame = () => {
+const NewGame = (props) => {
     return (
         <div className="NewGame">
-            <button className="new-game-button">New Game</button>
+            <button ref={props.ref} className="new-game-button">New Game</button>
         </div>
     )
 }

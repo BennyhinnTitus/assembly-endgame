@@ -33,7 +33,18 @@
   padding: 25px;
   color: white;
   border-radius: 10px;
+}
+
+.green {
   background-color: #0fb04d;
+}
+
+.red {
+  background-color: #b31e1e;
+}
+
+.grey {
+  background-color: rgb(28, 28, 28);
 }
 
 .Status span {
@@ -57,7 +68,7 @@
   flex-wrap: wrap;
 }
 
-.languages {
+.Languages > div {
   height: 40px;
   display: flex;
   margin: 7px;
@@ -65,6 +76,10 @@
   align-items: center;
   padding-inline: 15px;
   border-radius: 10px;
+}
+
+.Languages > div.lost {
+  opacity: 0.1;
 }
 
 .Word {
@@ -115,7 +130,7 @@
 }
 
 .Keyboard > button.wrong {
-  background-color: rgb(193, 21, 21);
+  background-color: rgb(216, 43, 43);
 }
 
 .NewGame {
