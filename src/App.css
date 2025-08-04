@@ -47,6 +47,10 @@
   background-color: rgb(28, 28, 28);
 }
 
+.purple {
+  background-color: rgb(128, 32, 128);
+}
+
 .Status span {
   padding: 5px;
 }
@@ -121,6 +125,11 @@
   cursor: pointer;
 }
 
+.Keyboard > button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
 .Keyboard > button:nth-child(21) {
   grid-column-start: 3;
 }
@@ -150,3 +159,6 @@
   background-color: rgb(32, 158, 208);
 }
 
+.incorrect {
+  color: rgb(216, 43, 43);
+}
